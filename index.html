@@ -1,0 +1,82 @@
+<!--DO NOT REMOVE!!! -->
+<!-- Confirm Homepage Footer Scope -->
+<style>
+    #PageBody {
+        background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(/graphics/bg-new.jpg);
+        background-attachment: fixed;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .foot-col.four {
+        border-bottom:0px !important;
+    }
+</style>
+<script type="text/javascript">
+    var menu = $('.header-out');
+    var menuText = $('.link');
+
+    $(window).scroll(function () {
+        var y = $(this).scrollTop();
+        var z = $('#hp-main').offset().top;
+
+        if (y >= z) {
+            menu.removeClass('header-light').addClass('header-dark');
+        }
+        else{
+            menu.removeClass('header-dark').addClass('header-light');
+        }
+    });
+</script>
+<!--DO NOT REMOVE!!! -->
+<div id="footer">
+    <div class="foot-col one">
+        <a class="foot-logo" href="/"><img src="/graphics/foot-logo.png"/></a>
+        <div class="foot-social">
+            <a target="_blank" href="http://www.facebook.com/acbsp"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            <a target="_blank" href="http://www.twitter.com/acbspaccredited"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            <a target="_blank" href="http://www.acbsp.org/linkedin "><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+            <a target="_blank" href="http://www.youtube.com/acbspaccreditation"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+            <a target="_blank" href="https://plus.google.com/+AcbspOrg"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+        </div><!-- /.foot-social -->
+    </div><!-- /.foot-col -->
+    <div class="foot-col two">
+        <ul class="locations">
+            <li>World Headquarters<br>
+            11520 West 119th Street<br>
+            Overland Park, KS 66213<br>
+            <strong>Phone: (913) 339-9356</strong>
+            </li>
+            <li>European Office<br>
+            Rue Abbé Cuypers, 3<br>
+            Brussels, 1040, Belgium<br>
+            <strong>Phone: +32 274124 26</strong>
+            </li>
+            <li>Latin American Office<br>
+            1 Jr. Las Calandrias 151 -291<br>
+            Santa Anita – Lima 43 - Perú<br>
+            <strong>Phone: +51 999963742</strong>
+            </li>
+        </ul>
+    </div><!-- /.foot-col -->
+    <div class="foot-col three">
+        <ul class="foot-links">
+            <li><a href="/page/membership">Membership</a></li>
+            <li><a href="/page/accreditation">Accreditation</a></li>
+            <li><a href="/page/events">Events</a></li>
+            <li><a href="/blogpost/1298341/Knowledge-Portal">Knowledge</a></li>
+            <li><a href="/page/publications">Publications</a></li>
+            <li><a href="/page/opportunities">Opportunities</a></li>
+            <li><a href="https://store.acbsp.org/">Store</a></li>
+            <li><a href="/page/corporate_members">Advertise, Exhibit, Sponsor</a></li>
+            <li><a href="/page/connect">Social Media</a></li>
+        </ul>
+    </div><!-- /.foot-col -->
+    <div class="foot-col four">
+        <div class="foot-copy-links">
+            <a href="/"></a><a href="/privacy.aspx">Privacy Policy</a> | <a href="/page/termsofuse">Terms of Use</a> | <a href="/general/?type=CONTACT">Contact</a> | <a href="http://careers.acbsp.org/">Careers</a> | 
+        </div><!-- /.foot-copy-links -->
+        <div class="foot-copy">
+            © ACBSP. All Rights Reserved
+        </div><!-- /.foot-copy -->
+    </div><!-- /.foot-col -->
+</div><!-- /#footer -->
